@@ -1,0 +1,4 @@
+LDA 01
+ADD	02
+STA	03
+HLT	04

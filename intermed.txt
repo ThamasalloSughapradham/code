@@ -1,0 +1,11 @@
+          COPY      START     1000
+1000      START     LDA       NUM1
+1003                ADD       NUM2
+1006                STA       RESULT
+1009                HLT       
+100c      NUM1      WORD      15
+100f      NUM2      WORD      5
+1012      RESULT    RESW      2
+1018      STRING    BYTE      C'Hello'
+101d      BUFFER    RESB      20
+1031                END       

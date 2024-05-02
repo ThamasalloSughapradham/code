@@ -1,0 +1,6 @@
+START     1000
+NUM1      100c
+NUM2      100f
+RESULT    1012
+STRING    1018
+BUFFER    101d
